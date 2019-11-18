@@ -27,7 +27,7 @@ end
 def list_of_directors(source)
   source = []
   index = 0 
-  while index < directors_database[:name] do 
+  while index < directors_database[:name][index] do 
     source += directors_database[:name][index]
     index += 1
   end
